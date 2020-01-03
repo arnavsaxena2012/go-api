@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
+	_ "github.com/arnavsaxena2012/go-api/db"
 	"github.com/arnavsaxena2012/go-api/loader"
 	"github.com/gorilla/mux"
 )

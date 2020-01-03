@@ -20,6 +20,7 @@ services:
         build:
                 context: .
                 dockerfile: MySQL/Dockerfile
+        container_name: my-sql-server
         ports:
                 - "3306:3306"
         volumes:
